@@ -1,9 +1,9 @@
 <?php
 
-namespace gipfl\DbMigration;
+namespace nonini\DbMigration;
 
 use Exception;
-use gipfl\ZfDb\Adapter\Pdo\PdoAdapter as Db;
+use nonini\ZfDb\Adapter\Pdo\PdoAdapter as Db;
 use InvalidArgumentException;
 use RuntimeException;
 use Zend_Db_Adapter_Pdo_Abstract as ZfDb;

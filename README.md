@@ -1,5 +1,5 @@
-gipfl\\Db\\Migration - DB migration helper
-==========================================
+nonini\\Db\\Migration - DB migration helper
+===========================================
 
 Allows to apply schema migrations
 

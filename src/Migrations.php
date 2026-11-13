@@ -1,13 +1,13 @@
 <?php
 
-namespace gipfl\DbMigration;
+namespace nonini\DbMigration;
 
 use DirectoryIterator;
 use Exception;
-use gipfl\ZfDb\Adapter\Exception\AdapterException;
-use gipfl\ZfDb\Adapter\Adapter as Db;
-use gipfl\ZfDb\Adapter\Pdo\Mysql;
-use gipfl\ZfDb\Adapter\Pdo\Pgsql;
+use nonini\ZfDb\Adapter\Exception\AdapterException;
+use nonini\ZfDb\Adapter\Adapter as Db;
+use nonini\ZfDb\Adapter\Pdo\Mysql;
+use nonini\ZfDb\Adapter\Pdo\Pgsql;
 use InvalidArgumentException;
 use Zend_Db_Adapter_Pdo_Abstract as ZfDb;
 use Zend_Db_Adapter_Pdo_Mysql as ZfMysql;
